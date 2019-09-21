@@ -115,6 +115,7 @@ li.nav a:hover {
 .facts {
     color: rgb(13, 101, 151);
     margin-bottom: 12px;
+    margin-top: 0px;
     text-align: justify;
 }
 
