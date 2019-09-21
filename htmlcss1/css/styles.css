@@ -1,0 +1,160 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    color: rgb(101, 141, 125);
+}
+
+h1 {
+    font-size: 64px;
+    color: rgb(101, 141, 125);
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(36, 103, 141);
+    margin-top: 0px;
+}
+
+footer {
+    font-size: 12px;
+    color: rgb(101, 141, 125);
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(101, 141, 125);
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.column {
+    padding: 2% 0%;
+}
+
+.colimg {
+    height: 100px;
+    width: auto;
+}
+
+ul#nav {
+    max-width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(36, 103, 141);
+    display: inline-block;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: block;
+    padding: 16px;
+    background-color: rgb(36, 103, 141);
+    text-decoration: none;
+    color: black;
+}
+
+li.nav a:hover {
+    background-color: black;
+    color: rgb(36, 103, 141);
+}
+
+#wrapper {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#myhdr {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: rgb(36, 103, 141);
+}
+
+#hdrtitle {
+    color: rgb(36, 103, 141);
+    font-size: 58px;
+    margin-right: 8%;
+    float: right;
+}
+
+#planetimg {
+    float: right;
+    width: 48%;
+    height: auto;
+    margin: 1%;
+}
+
+#description {
+    float: left;
+    width: 48%;
+    margin: 0% 2% 0% 0%;
+}
+
+.facts {
+    color: rgb(13, 101, 151);
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+#sum {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 103, 141);
+    color: black;
+}
+
+li.sum,
+li.yeardata {
+    margin: 3px 0px;
+}
+
+#yeardata {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(101, 141, 125);
+    color: rgb(33, 40, 46);
+}
+
+#src {
+    color: rgb(36, 103, 141);
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+#src a {
+    text-decoration: none;
+    color: rgb(36, 103, 141);
+}
+
+#src a:hover,
+#foot a:hover {
+    text-decoration: none;
+    color: azure;
+}
